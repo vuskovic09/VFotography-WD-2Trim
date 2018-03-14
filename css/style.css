@@ -180,7 +180,8 @@ a {
 
 
  .down {
- 	padding-top: 80px;
+ 	padding-top: 30px;
+ 	padding-bottom: 80px;
  	text-align: center;
  	flex-wrap: wrap;
  }
@@ -250,20 +251,22 @@ a {
 }
 
 #footer {
-	width: 100;
+	width: 100%;
 	height: 150px;
-	background-color: #464646;
+	background-color: #252525;
 	display: flex;
 	justify-content: space-around;
 }
 
 .footerBlock {
 	width: 33%;
-	border-right: 1px solid #c2c2c2;
+	height: inherit;
 }
 
 .footerBlock ul {
+	height: inherit;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: column;
+	align-items: center;
 }
