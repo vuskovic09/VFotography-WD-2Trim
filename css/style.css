@@ -269,7 +269,7 @@ a {
 	width: 33%;
 	height: inherit;
 	color: #c2c2c2;
-	border-right: 1px solid #c2c2c2;
+	border-right: 1px solid rgba(194, 194, 194, 0.3);
 }
 
 .footerBlock:last-child {
