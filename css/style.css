@@ -71,7 +71,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 #navigation ul li a {
@@ -79,6 +79,14 @@ a {
 	padding: 13px;
 	color: #E2E2E2;
 	transition: 0.5s ease-in-out;
+}
+
+#firstLi a {
+	border-bottom-left-radius: 15px;
+}
+
+#lastLi a {
+	border-bottom-right-radius: 15px;
 }
 
 #navigation ul li a:hover {
@@ -153,7 +161,6 @@ a {
  .miniImage {
  	width: 30%;
  	height: 45%;
- 	background-color: green;
  	background-image: url('../Images/slider1.jpg');
  	transition: 0.4s ease-in-out;
  }
@@ -262,6 +269,11 @@ a {
 	width: 33%;
 	height: inherit;
 	color: #c2c2c2;
+	border-right: 1px solid #c2c2c2;
+}
+
+.footerBlock:last-child {
+	border-right: none;
 }
 
 .footerBlock ul {
