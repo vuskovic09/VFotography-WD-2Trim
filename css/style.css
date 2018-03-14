@@ -261,6 +261,7 @@ a {
 .footerBlock {
 	width: 33%;
 	height: inherit;
+	color: #c2c2c2;
 }
 
 .footerBlock ul {
