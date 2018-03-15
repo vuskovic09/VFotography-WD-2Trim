@@ -215,11 +215,11 @@ a {
  }
 
  #model1 {
-	background-image: url('../images/model1.jpg');
+	background-image: url('../Images/model1.jpg');
 }
 
 #model2 {
-	background-image: url('../images/model2.jpg');	
+	background-image: url('../Images/model2.jpg');	
 }
 
 #model1, #model2 {
