@@ -14,6 +14,10 @@
 	box-sizing: border-box;
 }
 
+.cleaner {
+	clear: both;
+}
+
 body {
 	font-family: 'Adam';
 }
@@ -337,4 +341,8 @@ a {
 	align-items: center;
 }
 
-
+#galleryWrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}	
