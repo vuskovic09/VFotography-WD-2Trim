@@ -193,7 +193,6 @@ a {
   height: 250px;
   border-radius: 50%;
   box-shadow: 0px 0px 50px #232323;
-  margin-bottom: 25px;
 }
 .miniCircle:hover > .overlayCircle {
   opacity: 1;
@@ -344,188 +343,132 @@ a {
 .responsiveIMG {
   max-width: 100%;
 }
-
-/*QUERIES*/
-
-
 @media screen and (max-width: 1690px) {
-	#navigation {
-		width: 20%;
-		left: 40%;
-	}
-
-	.slikaG {
-		width: 30%;
-	}
-
-	.responsiveHide {
-		display: none;
-	}
-
+  #navigation {
+    width: 20%;
+    left: 40%;
+  }
+  .slikaG {
+    width: 30%;
+  }
+  .responsiveHide {
+    display: none;
+  }
 }
-
 @media screen and (max-width: 1020px) {
-	.slikaG {
-		width: 45%;
-	}
-
-	.gHeader {
-		font-size: 24px;
-	}
+  .slikaG {
+    width: 45%;
+  }
+  .gHeader {
+    font-size: 24px;
+  }
 }
-
 @media screen and (max-width: 1380px) {
-	#navigation {
-		width: 35%;
-		left: 35%;
-	}
-
-	.doubleArticle {
-		width: 45%;
-		font-size: 18px;
-	}
-
-	.miniImage {
-		width: 33%;
-	}
-
-	#miniOne {
-		background-position: -50px;
-	}
-
-	#miniTwo {
-		background-position: -650px;
-	}
-
-	#miniThree {
-		background-position: -1320px;
-	}
-
-	#miniFour {
-		background-position: -1920px;
-	}
-
-	#miniFive {
-		background-position: -2550px;
-	}
-
-	#miniSix {
-		background-position: -3100px;
-	}
-
-	.miniImage:nth-child(n+3) {
-		display: block;
-	}
-
-	.doubleArticle {
-		font-size: 16px;
-	}
-
-	.gHeader {
-		font-size: 26px;
-	}
-
-	#contactHold {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.kontaktClass {
-		width: 90%;
-		margin-bottom: 45px;
-	}
+  #navigation {
+    width: 35%;
+    left: 35%;
+  }
+  .doubleArticle {
+    width: 45%;
+    font-size: 18px;
+    font-size: 16px;
+  }
+  .miniImage {
+    width: 33%;
+  }
+  .miniImage:nth-child(n&+3) {
+    display: block;
+  }
+  #miniOne {
+    background-position: -50px;
+  }
+  #miniTwo {
+    background-position: -650px;
+  }
+  #miniThree {
+    background-position: -1320px;
+  }
+  #miniFour {
+    background-position: -1920px;
+  }
+  #miniFive {
+    background-position: -2550px;
+  }
+  #miniSix {
+    background-position: -3100px;
+  }
+  .gHeader {
+    font-size: 26px;
+  }
+  #contactHold {
+    flex-direction: column;
+    align-items: center;
+  }
+  .kontaktClass {
+    width: 90%;
+    margin-bottom: 45px;
+  }
 }
-
 @media screen and (max-width: 800px) {
-	#logo {
-		left: 20px;
-	}
-
-	#logo img {
-		margin-top: 70px;
-		width: 350px;
-	}
-
-	#navigation {
-		width: 100%;
-		left: 0px;
-		border-radius: 0px;
-	}
-
-	#navigation ul {
-		justify-content: space-around;
-	}
-
-	#navigation ul li a {
-		border-radius: 0px;
-	}
-
-	#socialNav ul {
-		justify-content: space-between;
-	}
-
-	.miniImage {
-		width: 73%;
-		margin-bottom: 20px;
-	}
-
-	.miniImage:nth-child(n+3) {
-		display: none;
-	}
-
-	.midSection {
-		padding: 10px;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.doubleArticle {
-		width: 90%;
-		height: 45%;
-		align-self: flex-start;
-	}
-
-	.rightAr {
-		align-self: flex-end;
-	}
-
-	.footerResponsive {
-		display: none;
-	}
-
-	.footerBlock {
-		width: 50%;
-	}
-
-	.slikaG {
-		width: 70%;
-	}
-
-	.gHeader {
-		font-size: 24px;
-	}
+  #logo {
+    left: 20px;
+  }
+  #logo img {
+    margin-top: 70px;
+    width: 350px;
+  }
+  #navigation {
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+  }
+  #navigation ul {
+    justify-content: space-around;
+  }
+  #navigation ul li a {
+    border-radius: 0px;
+  }
+  #socialNav ul {
+    justify-content: space-between;
+  }
+  .miniImage {
+    width: 73%;
+    margin-bottom: 20px;
+  }
+  .miniImage:nth-child(n&+3) {
+    display: none;
+  }
+  .midSection {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .doubleArticle {
+    width: 90%;
+    height: 45%;
+    align-self: flex-start;
+  }
+  .rightAr {
+    align-self: flex-end;
+  }
+  .footerResponsive {
+    display: none;
+  }
+  .footerBlock {
+    width: 50%;
+  }
+  .slikaG {
+    width: 70%;
+  }
+  .gHeader {
+    font-size: 24px;
+  }
 }
-
-@media screen and (max-width: 640px){
-	#kontaktMail {
-		display: none;
-	}
-
-	.kontaktClass ul li {
-		font-size: 24px;
-	}
-}
-
-@media screen and (max-width: 380px) {
-	#logo img {
-		margin-top: 70px;
-		width: 250px;
-	}
-	
-}
-
-@media screen and (max-width: 980px) {
-	.kontaktClass ul li {
-		font-size: 20px;
-	}
+@media screen and (max-width: 640px) {
+  #kontaktMail {
+    display: none;
+  }
+  .kontaktClass ul li {
+    font-size: 24px;
+  }
 }
