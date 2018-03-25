@@ -31,13 +31,8 @@ a {
 	color: #FFF;
 }
 
-img {
-	max-width: 100%;
-}
-
 #wrapper {
 	position: relative;
-	width: 100%;
 	background-image: url('../Images/X-2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -382,13 +377,6 @@ img {
 	box-shadow: 0px 7px 30px #222222;
 }
 
-/*@media screen and (max-width: 1500px) {
-	.responsive {
-		display: none;
-	}
-}*/
-
-
 #contactHold {
 	width: 90%;
 	display: flex;
@@ -399,21 +387,13 @@ img {
 }
 
 .kontaktClass {
-	width: 50%;
+	width: 45%;
 	height: 50%;
 }
 
 .kontaktClass ul li {
 	font-size: 36px;
 	margin-top: 35px;
-}
-
-#kontaktMail {
-	width: 50%;
-	-webkit-height: 50%;
-	-moz-height: 55%;
-	padding: 5px;
-	margin-top: 7px;
 }
 
 #kontaktMail form table {
@@ -434,4 +414,176 @@ img {
 
 #kontaktMail form table tr td textarea {
 	font-size: 24px;
+}
+
+.responsiveIMG {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1690px) {
+	#navigation {
+		width: 20%;
+		left: 40%;
+	}
+
+	.slikaG {
+		width: 30%;
+	}
+
+	.responsiveHide {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1020px) {
+	.slikaG {
+		width: 45%;
+	}
+
+	.gHeader {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 1380px) {
+	#navigation {
+		width: 35%;
+		left: 35%;
+	}
+
+	.doubleArticle {
+		width: 45%;
+		font-size: 18px;
+	}
+
+	.miniImage {
+		width: 33%;
+	}
+
+	#miniOne {
+		background-position: -50px;
+	}
+
+	#miniTwo {
+		background-position: -650px;
+	}
+
+	#miniThree {
+		background-position: -1320px;
+	}
+
+	#miniFour {
+		background-position: -1920px;
+	}
+
+	#miniFive {
+		background-position: -2550px;
+	}
+
+	#miniSix {
+		background-position: -3100px;
+	}
+
+	.miniImage:nth-child(n+3) {
+		display: block;
+	}
+
+	.doubleArticle {
+		font-size: 16px;
+	}
+
+	.gHeader {
+		font-size: 26px;
+	}
+
+	#contactHold {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.kontaktClass {
+		width: 90%;
+		margin-bottom: 45px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#logo {
+		left: 20px;
+	}
+
+	#logo img {
+		margin-top: 70px;
+		width: 350px;
+	}
+
+	#navigation {
+		width: 100%;
+		left: 0px;
+		border-radius: 0px;
+	}
+
+	#navigation ul {
+		justify-content: space-around;
+	}
+
+	#navigation ul li a {
+		border-radius: 0px;
+	}
+
+	#socialNav ul {
+		justify-content: space-between;
+	}
+
+	.miniImage {
+		width: 73%;
+		margin-bottom: 20px;
+	}
+
+	.miniImage:nth-child(n+3) {
+		display: none;
+	}
+
+	.midSection {
+		padding: 10px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.doubleArticle {
+		width: 90%;
+		height: 45%;
+		align-self: flex-start;
+	}
+
+	.rightAr {
+		align-self: flex-end;
+	}
+
+	.footerResponsive {
+		display: none;
+	}
+
+	.footerBlock {
+		width: 50%;
+	}
+
+	.slikaG {
+		width: 70%;
+	}
+
+	.gHeader {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#kontaktMail {
+		display: none;
+	}
+
+	.kontaktClass ul li {
+		font-size: 24px;
+	}
 }
